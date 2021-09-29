@@ -39,12 +39,10 @@ PRODUCT_PACKAGES += \
 
 # Extra packages
 PRODUCT_PACKAGES += \
-    crDroidMusic \
     crDroidThemesStub \
     ThemePicker \
     OmniJaws \
     OmniStyle \
-    MatLog \
     QuickAccessWallet \
     StitchImage
 
