@@ -111,10 +111,6 @@ TARGET_SCREEN_HEIGHT ?= 1920
 PRODUCT_PACKAGES += \
     bootanimation.zip
 
-# AOSP packages
-PRODUCT_PACKAGES += \
-    Terminal
-
 # Lineage packages
 PRODUCT_PACKAGES += \
     LineageParts \
@@ -142,7 +138,6 @@ PRODUCT_PACKAGES += \
     unrar \
     unzip \
     vim \
-    wget \
     zip
 
 # Filesystems tools
@@ -195,7 +190,7 @@ PRODUCT_VERSION_MAJOR = 11
 PRODUCT_VERSION_MINOR = 0
 
 # Increase CR Version with each major release.
-CR_VERSION := 7.11
+CR_VERSION := 7.19
 
 LINEAGE_VERSION := crDroidAndroid-$(PRODUCT_VERSION_MAJOR).$(PRODUCT_VERSION_MINOR)-$(shell date +%Y%m%d)-$(LINEAGE_BUILD)-v$(CR_VERSION)
 LINEAGE_DISPLAY_VERSION := crDroidAndroid-$(PRODUCT_VERSION_MAJOR).$(PRODUCT_VERSION_MINOR)-$(LINEAGE_BUILD)-v$(CR_VERSION)
